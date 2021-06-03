@@ -1,0 +1,1 @@
+export ARM_ACCESS_KEY=$(az keyvault secret show --name terraform-backend-key --vault-name terraformkv --query value -o tsv)
